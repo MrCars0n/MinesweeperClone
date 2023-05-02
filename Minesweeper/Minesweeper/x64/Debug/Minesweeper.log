@@ -1,0 +1,3 @@
+﻿  Board.cpp
+C:\Users\carso\OneDrive\Documents\CSCN 112\Minesweeper\Minesweeper\Board.cpp(90,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Minesweeper.vcxproj -> C:\Users\carso\OneDrive\Documents\CSCN 112\Minesweeper\x64\Debug\Minesweeper.exe
