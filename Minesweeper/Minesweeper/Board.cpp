@@ -24,7 +24,8 @@ std::ostream& operator<<(std::ostream& out, const Board& inputBoard)
 			// Print flagged tiles first (if they have not already been dug up)
 			if (inputBoard.grid[row][col].getIsFlagged() && !inputBoard.grid[row][col].getIsVisible())
 			{
-				out << " " << (char)16 << " "; // Flag is 16
+				out << " > "; // Flag character causing issues, using > symbol instead
+				//out << " " << (char)16 << " "; // Flag is 16
 			}
 			// If the tile is visible, print the number of mines around it
 			else if (inputBoard.grid[row][col].getIsVisible() || inputBoard.getMinesTripped())
